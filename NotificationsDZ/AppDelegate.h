@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+extern NSString* const appDelNotification;
+
+extern NSString* const appDelUserInfoKey;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+
 
 
 @end

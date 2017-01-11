@@ -15,6 +15,10 @@
 		7EA364A31CD8E26A00043C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA364A11CD8E26A00043C4A /* LaunchScreen.storyboard */; };
 		7EA364AE1CD8E26A00043C4A /* NotificationsDZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA364AD1CD8E26A00043C4A /* NotificationsDZTests.m */; };
 		7EA364B91CD8E26A00043C4A /* NotificationsDZUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA364B81CD8E26A00043C4A /* NotificationsDZUITests.m */; };
+		7EA364C81CDA8C1500043C4A /* FSGovernment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA364C71CDA8C1500043C4A /* FSGovernment.m */; };
+		7EA364CB1CDA962700043C4A /* FSDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA364CA1CDA962700043C4A /* FSDoctor.m */; };
+		7EA364CE1CDE101200043C4A /* FSBuisness.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA364CD1CDE101200043C4A /* FSBuisness.m */; };
+		7EA364D11CDE103200043C4A /* FSPensioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA364D01CDE103200043C4A /* FSPensioner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		7EA364B41CD8E26A00043C4A /* NotificationsDZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationsDZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA364B81CD8E26A00043C4A /* NotificationsDZUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationsDZUITests.m; sourceTree = "<group>"; };
 		7EA364BA1CD8E26A00043C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA364C61CDA8C1500043C4A /* FSGovernment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSGovernment.h; sourceTree = "<group>"; };
+		7EA364C71CDA8C1500043C4A /* FSGovernment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSGovernment.m; sourceTree = "<group>"; };
+		7EA364C91CDA962700043C4A /* FSDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDoctor.h; sourceTree = "<group>"; };
+		7EA364CA1CDA962700043C4A /* FSDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDoctor.m; sourceTree = "<group>"; };
+		7EA364CC1CDE101200043C4A /* FSBuisness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBuisness.h; sourceTree = "<group>"; };
+		7EA364CD1CDE101200043C4A /* FSBuisness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBuisness.m; sourceTree = "<group>"; };
+		7EA364CF1CDE103200043C4A /* FSPensioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPensioner.h; sourceTree = "<group>"; };
+		7EA364D01CDE103200043C4A /* FSPensioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPensioner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				7EA364A11CD8E26A00043C4A /* LaunchScreen.storyboard */,
 				7EA364A41CD8E26A00043C4A /* Info.plist */,
 				7EA364931CD8E26A00043C4A /* Supporting Files */,
+				7EA364C61CDA8C1500043C4A /* FSGovernment.h */,
+				7EA364C71CDA8C1500043C4A /* FSGovernment.m */,
+				7EA364C91CDA962700043C4A /* FSDoctor.h */,
+				7EA364CA1CDA962700043C4A /* FSDoctor.m */,
+				7EA364CC1CDE101200043C4A /* FSBuisness.h */,
+				7EA364CD1CDE101200043C4A /* FSBuisness.m */,
+				7EA364CF1CDE103200043C4A /* FSPensioner.h */,
+				7EA364D01CDE103200043C4A /* FSPensioner.m */,
 			);
 			path = NotificationsDZ;
 			sourceTree = "<group>";
@@ -274,8 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EA3649B1CD8E26A00043C4A /* ViewController.m in Sources */,
+				7EA364D11CDE103200043C4A /* FSPensioner.m in Sources */,
 				7EA364981CD8E26A00043C4A /* AppDelegate.m in Sources */,
+				7EA364CE1CDE101200043C4A /* FSBuisness.m in Sources */,
 				7EA364951CD8E26A00043C4A /* main.m in Sources */,
+				7EA364CB1CDA962700043C4A /* FSDoctor.m in Sources */,
+				7EA364C81CDA8C1500043C4A /* FSGovernment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
