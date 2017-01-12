@@ -58,7 +58,7 @@ NSString* const appDelUserInfoKey = @"appDelUserInfoKey";
     
     
     self.government.salary = 1050;
-    //
+    
 
     self.government.salary = 1150;
     
